@@ -4,6 +4,55 @@
   }
 }
 
+@media (max-width: 768px) {
+  /* Responsive styles for mobile screens */
+  #header h1 {
+    font-size: 1.5rem;
+  }
+  .cat-image {
+    max-width: 100%; /* Make the cat image responsive */
+    height: auto;
+  }
+  /* Add more responsive styles here */
+  #image-container {
+    padding: 10px;
+  }
+  .clue {
+    margin-top: 10px;
+  }
+  .clue h3 {
+    font-size: 1.2rem;
+  }
+  input[type="text"] {
+    padding: 8px;
+  }
+  button {
+    padding: 8px 16px;
+  }
+  #new-message-container {
+    margin-top: 100px;
+    padding: 10px;
+  }
+  #new-message-container h2 {
+    font-size: 20px;
+  }
+  #new-message-container .message-text {
+    font-size: 16px;
+    margin: 8px 0;
+  }
+  .styled-video-container {
+    margin-top: 10px;
+    padding: 10px;
+  }
+  .styled-video-container h2 {
+    font-size: 20px;
+  }
+  .styled-video-container .message-text {
+    font-size: 16px;
+    margin: 8px 0;
+  }
+}
+
 @keyframes fadeIn {
   from {
       opacity: 0;
@@ -27,6 +76,7 @@ body {
 #container {
   background: transparent;
 }
+
 
 
 #image-container {
